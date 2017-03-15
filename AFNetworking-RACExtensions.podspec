@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '3.0'
   s.source_files = 'RACAFNetworking'
   s.requires_arc = true
-  s.dependency 'AFNetworking', '~> 2.0'
+  s.dependency 'AFNetworking'
   s.dependency 'ReactiveCocoa'
 end
